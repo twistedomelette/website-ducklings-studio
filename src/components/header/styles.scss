@@ -1,0 +1,29 @@
+@import "../../assets/scss/main";
+
+.header-section {
+  z-index: 10;
+}
+
+.header-container {
+  background: $ds-black;
+  border: 0.065rem solid $ds-brown;
+  padding: 0 7.5rem;
+}
+
+.header__link {
+  font-family: 'Roboto', serif;
+  font-style: normal;
+  color: $ds-white;
+  font-size: $font-size-2;
+  text-decoration: none;
+  margin-left: 4.5rem;
+  background: none;
+  border: none;
+
+  &-active {
+    color: $ds-orange;
+  }
+  &:hover {
+    color: $ds-darkorange;
+  }
+}

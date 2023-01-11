@@ -1,0 +1,195 @@
+@import "../../assets/scss/main";
+
+.homepage {
+  padding-top: 4.5rem;
+}
+
+.banner__content {
+  position: absolute;
+  width: 70rem;
+  left: 10%;
+  top: 18%;
+}
+.banner__title {
+  font-family: 'Roboto', serif;
+  font-style: normal;
+  font-size: 6rem;
+  line-height: 7.88rem;
+  color: $ds-white;
+  margin-bottom: 3rem;
+}
+
+.banner__btn {
+  font-family: 'Roboto', serif;
+  font-style: normal;
+  background: $ds-darkorange;
+  border: 0.065rem solid $ds-darkorange;
+  color: $ds-white;
+  font-size: $font-size-2;
+  width: 12rem;
+  height: 4.5rem;
+  padding: 0.6rem 0;
+  border-radius: 0.4rem;
+
+  &:hover {
+    background: $ds-orange;
+    border: 0.065rem solid $ds-orange;
+  }
+}
+
+.last-games,
+.achievements,
+.future-games {
+  padding: 3rem 0;
+}
+
+.last-games__title,
+.achievements__title,
+.future-games__title {
+  font-family: 'Roboto', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $font-size-0;
+  line-height: 3.5rem;
+  color: $ds-white;
+  margin-bottom: 6rem;
+}
+
+.game-card {
+  width: 30.3rem;
+  background: $ds-black;
+  border-radius: 0.75rem;
+}
+
+.future-game {
+  width: 97rem;
+  background: $ds-black;
+  border-radius: 0.75rem;
+}
+
+.game-card__content {
+  padding: 1.5rem 1.5rem 2rem;
+}
+
+.future-game__content {
+  padding: 3rem 3rem 0;
+}
+
+.game-card__name,
+.future-game__name {
+  font-family: 'Roboto', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.38rem;
+  margin-bottom: 0.875rem;
+
+  color: $ds-white;
+}
+
+.future-game__name {
+  font-size: 2.5rem;
+}
+
+.future-game__about {
+  margin-bottom: 1rem;
+}
+
+.game-card__description,
+.future-game__description {
+  font-family: 'Roboto', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: $font-size-3;
+  line-height: 1.44rem;
+  margin-bottom: 6rem;
+
+  color: $ds-white-700;
+}
+
+.game-card__icon,
+.future-game__icon {
+  width: 3rem;
+}
+
+.game-card__date-text,
+.game-card__platforms-text,
+.future-game__date-text,
+.future-game__platforms-text{
+  font-family: 'Roboto', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: $font-size-3;
+  line-height: 1.44rem;
+  margin-left: 0.75rem;
+  min-width: 6rem;
+
+  color: $ds-white-700;
+}
+
+.game-card__platforms,
+.future-game__platforms {
+  margin-left: 3rem;
+}
+
+.last-games__cards {
+  margin: 0 11.625rem;
+}
+
+.achievements {
+  background: $ds-black;
+}
+
+.achievements__icon {
+  width: 12rem;
+}
+
+.achievements__number,
+.achievements__topic {
+  font-family: 'Roboto', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 1.4rem;
+
+  color: $ds-orange;
+}
+
+.achievements__topic {
+  color: $ds-white;
+  font-size: $font-size-2;
+  line-height: 3.5rem;
+}
+
+.achievements__icon {
+  margin: 1.5rem 0;
+}
+
+.achievements__content {
+  margin: 0 14rem;
+}
+
+.future-game__btn {
+  font-family: 'Roboto', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.375rem;
+  background: none;
+  border: none;
+  padding: 1.5rem;
+
+  color: $ds-white;
+
+  &:not(:first-child) {
+    border-left: 0.125rem solid $ds-white-700;
+  }
+
+  &-active {
+    color: $ds-orange;
+  }
+}
+
+.future-game__img {
+  max-width: 37.875rem;
+}

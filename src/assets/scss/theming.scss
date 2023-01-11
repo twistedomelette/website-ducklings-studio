@@ -1,0 +1,14 @@
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import 'variables';
+
+/* stylelint-disable */
+$custom-colors: (
+        'ds-black': $ds-black,
+        'ds-brown': $ds-brown,
+        'ds-orange': $ds-orange,
+        'ds-white': $ds-white,
+        'ds-darkorange': $ds-darkorange,
+) !default;
+
+$theme-colors: map-merge($theme-colors, $custom-colors);

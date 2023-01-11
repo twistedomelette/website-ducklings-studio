@@ -1,0 +1,119 @@
+@import "../../assets/scss/main";
+
+.footer {
+  background: $ds-black;
+}
+
+.info__about-us,
+.info__explore-text,
+.info__phone,
+.info__location,
+.info__our-email {
+  font-family: 'Roboto', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.375rem;
+  margin-bottom: 0.875rem;
+
+  color: $ds-white;
+}
+
+.info__our-email {
+  margin-bottom: 10.75rem;
+}
+
+.info__explore,
+.info__contacts {
+  margin-left: 12rem;
+}
+
+.info__about-us-description,
+.info__explore-link,
+.info__inc,
+.info__phone-text,
+.info__location-text,
+.info__email-text {
+  font-family: 'Roboto', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.44rem;
+  margin-bottom: 1.5rem;
+
+  color: $ds-white-700;
+}
+
+.info__inc {
+  margin-bottom: 0;
+}
+
+.info__explore-link {
+  text-decoration: none;
+  line-height: 2.4rem;
+  margin-left: 2rem;
+
+  &::before {
+    content: "\2022";
+    color: $ds-white-700;
+    font-weight: bold;
+    display: inline-block;
+    width: 1rem;
+    margin-left: -1.5rem;
+  }
+}
+
+.info {
+  padding: 3rem 11.44rem;
+}
+
+.info__ducklings {
+  width: 31.25rem;
+}
+
+.info__input-email,
+.info__input-email:hover {
+  font-family: 'Roboto', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.375rem;
+  padding: 0.25rem 1.5rem;
+  height: 3.75rem;
+
+  background: $ds-brown;
+  color: $ds-white;
+}
+
+.info__email {
+  margin-bottom: 14.56rem;
+}
+
+.info__email-arrow {
+  right: 0.75rem;
+  top: 0.5rem;
+}
+
+.social-network__link {
+  border: none;
+  background: $ds-black;
+
+  &:not(:first-child) {
+    margin-left: 3rem;
+  }
+}
+
+.social-network {
+  margin: 0 0.2rem;
+  width: 2.5rem;
+
+  &:hover {
+    filter: invert(51%) sepia(48%) saturate(2889%) hue-rotate(349deg) brightness(104%) contrast(101%);
+  }
+}
+
+.info__submit-btn {
+  border: none;
+  background: none;
+}
+
