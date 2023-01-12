@@ -1,10 +1,10 @@
 export const routes = {
     home: {
         path: '/',
-        name: 'homepage',
+        name: 'Home',
     },
     blog: {
-        path: '/blog',
-        name: 'blog',
+        path: '/blogs',
+        name: 'Blog',
     }
 }

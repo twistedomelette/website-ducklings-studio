@@ -2,5 +2,141 @@
 
 .blog {
   padding-top: 4.5rem;
-  padding-left: 1rem;
+}
+
+.blog__content {
+  padding: 3rem 11.75rem;
+}
+
+.banner__title {
+  font-family: 'Roboto', serif;
+  font-style: normal;
+  font-size: 6rem;
+  line-height: 7.88rem;
+  top: 14rem;
+  color: $ds-white;
+}
+
+.news-card {
+  width: 67rem;
+  max-width: 67rem;
+  &:not(:last-child) {
+    margin-bottom: 3.75rem;
+  }
+}
+
+.news-card__date {
+  width: 13.15rem;
+  height: 3rem;
+  left: 1.5rem;
+  top: 1.5rem;
+  z-index: 9;
+
+  background: $ds-darkorange;
+}
+
+.news-card__img {
+  margin-bottom: 1.5rem;
+
+  &:hover {
+    filter: blur(0.125rem);
+  }
+}
+
+.news-card__img-btn {
+  background: none;
+  border: none;
+}
+
+.news-card__date-text {
+  font-family: 'Roboto', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.44rem;
+
+  color: $ds-white;
+}
+
+.news-card__title {
+  font-family: 'Roboto', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  text-decoration: none;
+  margin: 1.5rem 0 0.75rem;
+
+  color: $ds-white;
+  &:hover {
+    color: $ds-orange;
+  }
+}
+.news-card__description {
+  font-family: 'Roboto', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 0.75rem;
+
+  color: $ds-white-700;
+}
+
+.blog__states {
+  width: 25rem;
+  gap: 3rem;
+}
+
+.blog__input-filter {
+  height: 7.5rem;
+  border: none;
+  border-radius: 0.75rem;
+
+  background: $ds-darkorange;
+}
+
+.blog__input-filter::placeholder {
+  font-family: 'Roboto', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.375rem;
+  padding: 0 1.5rem;
+
+  color: $ds-white;
+}
+
+.blog__submit-btn {
+  right: 1.5rem;
+  background: $ds-darkorange;
+  border: none;
+}
+
+.blog__categories-block {
+  background: $ds-black;
+  border-radius: 0.55rem;
+  padding: 1.5rem 3rem;
+}
+
+.blog__categories-title {
+  font-family: 'Roboto', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.375rem;
+  margin-bottom: 1.5rem;
+
+  color: $ds-white;
+}
+
+.blog__categories {
+  font-family: 'Roboto', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.75rem;
+  margin-left: 2rem;
+
+  color: $ds-white-700;
 }

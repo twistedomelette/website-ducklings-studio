@@ -13,9 +13,13 @@ function Header() {
                 <img src={logoSvg} alt="logo" />
                 <div className="header__links">
                     <Link className={"header__link " + (location.pathname === routes.home.path ?
-                        'header__link-active' : 'header__link-inactive')} to="/">Home</Link>
+                        'header__link-active' : 'header__link-inactive')} to={routes.home.path}>
+                        { routes.home.name }
+                    </Link>
                     <Link className={"header__link " + (location.pathname === routes.blog.path ?
-                        'header__link-active' : 'header__link-inactive')} to={routes.blog.path}>Blog</Link>
+                        'header__link-active' : 'header__link-inactive')} to={routes.blog.path}>
+                        { routes.blog.name }
+                    </Link>
                 </div>
             </div>
         </header>

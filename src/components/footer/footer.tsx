@@ -2,6 +2,7 @@ import './styles.scss';
 import React from "react";
 import { Link } from "react-router-dom";
 import { socialNetworks } from "../../mock/social-networks";
+import { routes } from "../../routes/routes";
 import { ISocialNetwork } from "./common/interfaces";
 import ArrowSvg from '../../assets/img/arrow.svg'
 
@@ -33,8 +34,22 @@ function Footer() {
                 <div className="info__explore d-flex flex-column">
                     <p className="info__explore-text">EXPLORE</p>
                     <ul>
-                        <li><Link className="info__explore-link" to="/">Home</Link></li>
-                        <li><Link className="info__explore-link" to="/blog">Blog</Link></li>
+                        <li>
+                            <Link
+                                className="info__explore-link"
+                                to={routes.home.path}
+                            >
+                                {routes.home.name}
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
+                                className="info__explore-link"
+                                to={routes.blog.path}
+                            >
+                                {routes.blog.name}
+                            </Link>
+                        </li>
                     </ul>
                 </div>
                 <div className="info__contacts d-flex flex-column">
