@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Ducklings-Studio.github.io/website-ducklings-studio",
   "name": "website-ducklings-studio",
   "version": "0.1.0",
   "private": true,
@@ -16,14 +17,16 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "6.6.2",
     "react-scripts": "5.0.1",
-    "typescript": "^4.9.4",
+    "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -44,6 +47,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "node-sass": "^7.0.3",
     "sass": "1.57.1",
     "sass-loader": "^13.2.0"
