@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/website-ducklings-studio/static/css/main.61f1f3ac.css",
-    "main.js": "/website-ducklings-studio/static/js/main.a85e7da9.js",
+    "main.js": "/website-ducklings-studio/static/js/main.31772130.js",
     "static/media/game-logo.svg": "/website-ducklings-studio/static/media/game-logo.8ee21c2e81f8c05c384cdc57a53d7771.svg",
     "static/media/game-logo-2.svg": "/website-ducklings-studio/static/media/game-logo-2.6262ff1cea4010de9e19448827f2f24c.svg",
     "static/media/banner.svg": "/website-ducklings-studio/static/media/banner.9a93bcc69ef21b34d1da4165d6d102e3.svg",
@@ -15,10 +15,10 @@
     "static/media/youtube.svg": "/website-ducklings-studio/static/media/youtube.ef99af766fcaace47eecfaa920fbf99b.svg",
     "static/media/arrow.svg": "/website-ducklings-studio/static/media/arrow.bd858ec7e59a6c6ae408a018ce5460b4.svg",
     "main.61f1f3ac.css.map": "/website-ducklings-studio/static/css/main.61f1f3ac.css.map",
-    "main.a85e7da9.js.map": "/website-ducklings-studio/static/js/main.a85e7da9.js.map"
+    "main.31772130.js.map": "/website-ducklings-studio/static/js/main.31772130.js.map"
   },
   "entrypoints": [
     "static/css/main.61f1f3ac.css",
-    "static/js/main.a85e7da9.js"
+    "static/js/main.31772130.js"
   ]
 }
