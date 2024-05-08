@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/website-ducklings-studio/static/css/main.61f1f3ac.css",
-    "main.js": "/website-ducklings-studio/static/js/main.d1cdefa2.js",
-    "static/media/game-logo.svg": "/website-ducklings-studio/static/media/game-logo.8ee21c2e81f8c05c384cdc57a53d7771.svg",
-    "static/media/game-logo-2.svg": "/website-ducklings-studio/static/media/game-logo-2.6262ff1cea4010de9e19448827f2f24c.svg",
-    "static/media/banner.svg": "/website-ducklings-studio/static/media/banner.9a93bcc69ef21b34d1da4165d6d102e3.svg",
-    "static/media/blog-banner.svg": "/website-ducklings-studio/static/media/blog-banner.f8e211cc2b8371f0452a3b75e6c41ce1.svg",
-    "static/media/logo.svg": "/website-ducklings-studio/static/media/logo.d4cde5726be8ea28568a2338587747ff.svg",
-    "static/media/instagram.svg": "/website-ducklings-studio/static/media/instagram.6f128205e7c156ad51966b4fdaaff196.svg",
-    "static/media/loop.svg": "/website-ducklings-studio/static/media/loop.53181f1e926d6c13861a4a1cea6b8526.svg",
-    "static/media/github.svg": "/website-ducklings-studio/static/media/github.492f806de4c56a356a27a35ed3ee3daa.svg",
-    "static/media/gamepad.svg": "/website-ducklings-studio/static/media/gamepad.a108857e6a2c6dccb22e46e047d99807.svg",
-    "index.html": "/website-ducklings-studio/index.html",
-    "static/media/youtube.svg": "/website-ducklings-studio/static/media/youtube.ef99af766fcaace47eecfaa920fbf99b.svg",
-    "static/media/arrow.svg": "/website-ducklings-studio/static/media/arrow.bd858ec7e59a6c6ae408a018ce5460b4.svg",
-    "main.61f1f3ac.css.map": "/website-ducklings-studio/static/css/main.61f1f3ac.css.map",
-    "main.d1cdefa2.js.map": "/website-ducklings-studio/static/js/main.d1cdefa2.js.map"
+    "main.css": "/static/css/main.61f1f3ac.css",
+    "main.js": "/static/js/main.cb2a9332.js",
+    "static/media/game-logo.svg": "/static/media/game-logo.8ee21c2e81f8c05c384cdc57a53d7771.svg",
+    "static/media/game-logo-2.svg": "/static/media/game-logo-2.6262ff1cea4010de9e19448827f2f24c.svg",
+    "static/media/banner.svg": "/static/media/banner.9a93bcc69ef21b34d1da4165d6d102e3.svg",
+    "static/media/blog-banner.svg": "/static/media/blog-banner.f8e211cc2b8371f0452a3b75e6c41ce1.svg",
+    "static/media/logo.svg": "/static/media/logo.d4cde5726be8ea28568a2338587747ff.svg",
+    "static/media/instagram.svg": "/static/media/instagram.6f128205e7c156ad51966b4fdaaff196.svg",
+    "static/media/loop.svg": "/static/media/loop.53181f1e926d6c13861a4a1cea6b8526.svg",
+    "static/media/github.svg": "/static/media/github.492f806de4c56a356a27a35ed3ee3daa.svg",
+    "static/media/gamepad.svg": "/static/media/gamepad.a108857e6a2c6dccb22e46e047d99807.svg",
+    "index.html": "/index.html",
+    "static/media/youtube.svg": "/static/media/youtube.ef99af766fcaace47eecfaa920fbf99b.svg",
+    "static/media/arrow.svg": "/static/media/arrow.bd858ec7e59a6c6ae408a018ce5460b4.svg",
+    "main.61f1f3ac.css.map": "/static/css/main.61f1f3ac.css.map",
+    "main.cb2a9332.js.map": "/static/js/main.cb2a9332.js.map"
   },
   "entrypoints": [
     "static/css/main.61f1f3ac.css",
-    "static/js/main.d1cdefa2.js"
+    "static/js/main.cb2a9332.js"
   ]
 }
