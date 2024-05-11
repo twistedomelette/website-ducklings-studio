@@ -1,42 +1,15 @@
-import GameLogo2Svg from "../assets/img/game-logo-2.svg";
-import GameLogoSvg from "../assets/img/game-logo.svg";
+import GameLogoSvg from "../assets/img/Mushroots_poster.jpg";
 
-export const lastGames = [
+export const ourGames = [
     {
         logo: GameLogoSvg,
-        name: 'SPLIT WORLD',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non placerat turpis.',
-        date: 'MAY 2020',
-        platforms: ['Android', 'PC'],
-    },
-    {
-        logo: GameLogoSvg,
-        name: 'SPLIT WORLD',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non placerat turpis.',
-        date: 'MAY 2020',
-        platforms: ['Android'],
-    },
-    {
-        logo: GameLogoSvg,
-        name: 'SPLIT WORLD',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non placerat turpis.',
-        date: 'MAY 2020',
-        platforms: ['Android', 'PS3', 'PC', 'XBOX', 'WEB'],
-    },
-]
-export const futureGames = [
-    {
-        logo: GameLogo2Svg,
-        name: 'AEROPUNK',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non placerat turpis. Cras tincidunt auctor dolor ut accumsan. Quisque convallis ac orci ac luctus. Fusce bibendum leo ut tellus imperdiet finibus. Quisque justo turpis, sagittis ut laoreet sed, bibendum quis sapien. Phasellus facilisis felis feugiat, mattis leo id, faucibus nunc. In quis nisl massa. Duis feugiat pretium justo, a venenatis nunc volutpat et. Vestibulum placerat, nisi vel tempor feugiat, purus neque tristique urna, id maximus tortor felis ultricies lorem. Integer a dolor felis. Cras nec sapien ut nunc euismod iaculis id eu nulla. Fusce sapien est, porttitor eget massa a, sagittis mattis tortor. Sed varius facilisis sagittis. Ut pulvinar commodo risus, vitae fringilla sem tempor vel.',
-        date: '2023',
-        platforms: ['Android'],
-    },
-    {
-        logo: GameLogo2Svg,
-        name: 'SPLIT WORLD',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non placerat turpis.',
-        date: '2024',
-        platforms: ['Android', 'PS3', 'PC', 'XBOX', 'WEB'],
+        name: 'Mushroots',
+        description: 'New RTS for everyone!' + `<br>` + `<br>` +
+            'RTS have become more accessible! Tired of a bunch of units? Need a million clicks per second for low league? Time to try out a new game.' +  `<br />` + '<br />' +
+            'MUSHROOTS is a new round in the world of the RTS genre. A variety of mechanics and different modes allow you to completely customize the game for yourself.' + '<br />' +
+            'Take control of a race of intelligent mushrooms. Build a huge colonial system and lead your civilization to planetary domination.',
+        date: 'MAY 2024',
+        platforms: ['Windows', 'OSX', 'Linux'],
+        test: `kar<br>akrkakrw`
     },
 ]

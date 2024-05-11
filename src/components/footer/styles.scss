@@ -6,26 +6,19 @@
 
 .info__about-us,
 .info__explore-text,
-.info__phone,
-.info__location,
-.info__our-email {
+.info__contact {
   font-family: 'Roboto', serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 2rem;
-  line-height: 2.375rem;
+  font-size: 1.5rem;
+  line-height: 1.758rem;
   margin-bottom: 0.875rem;
 
   color: $ds-white;
 }
 
-.info__phone,
-.info__location {
-  margin-bottom: 1.5rem;
-}
-
 .info__our-email {
-  margin-bottom: 10.75rem;
+  margin-bottom: 2rem;
 }
 
 .info__explore,
@@ -36,23 +29,15 @@
 .info__about-us-description,
 .info__explore-link,
 .info__inc,
-.info__phone-text,
-.info__location-text,
-.info__email-text {
+.info__our-email{
   font-family: 'Roboto', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1.25rem;
-  line-height: 1.44rem;
+  line-height: 1.465rem;
   margin-bottom: 1.5rem;
 
   color: $ds-white-700;
-}
-
-.info__phone-text,
-.info__location-text,
-.info__email-text {
-  margin-bottom: 0.875rem;
 }
 
 .info__inc {

@@ -10,11 +10,11 @@ export const socialNetworks = [
     {
         icon: InstagramSvg,
         name: 'github',
-        href: 'https://www.instagram.com/ducklings_studio/',
+        href: 'https://www.instagram.com/ducklingsstudio/',
     },
     {
         icon: YoutubeSvg,
         name: 'youtube',
-        href: 'https://www.youtube.com/@ducklings_studio',
+        href: 'https://www.youtube.com/@DucklingsStudio',
     }
 ]
