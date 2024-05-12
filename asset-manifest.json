@@ -1,24 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.61f1f3ac.css",
-    "main.js": "/static/js/main.cb2a9332.js",
-    "static/media/game-logo.svg": "/static/media/game-logo.8ee21c2e81f8c05c384cdc57a53d7771.svg",
-    "static/media/game-logo-2.svg": "/static/media/game-logo-2.6262ff1cea4010de9e19448827f2f24c.svg",
-    "static/media/banner.svg": "/static/media/banner.9a93bcc69ef21b34d1da4165d6d102e3.svg",
-    "static/media/blog-banner.svg": "/static/media/blog-banner.f8e211cc2b8371f0452a3b75e6c41ce1.svg",
-    "static/media/logo.svg": "/static/media/logo.d4cde5726be8ea28568a2338587747ff.svg",
-    "static/media/instagram.svg": "/static/media/instagram.6f128205e7c156ad51966b4fdaaff196.svg",
-    "static/media/loop.svg": "/static/media/loop.53181f1e926d6c13861a4a1cea6b8526.svg",
+    "main.css": "/static/css/main.2e25169f.css",
+    "main.js": "/static/js/main.61bc4710.js",
+    "static/media/Mushroots_poster.jpg": "/static/media/Mushroots_poster.944a32da6ddeaf2b1619.jpg",
+    "static/media/Ducklings_Studio_logo.svg": "/static/media/Ducklings_Studio_logo.9baa731a48f281dc03789e73fa59671e.svg",
+    "static/media/instagram.svg": "/static/media/instagram.018ab7f813e35887d0baf29d349d615d.svg",
     "index.html": "/index.html",
-    "static/media/github.svg": "/static/media/github.492f806de4c56a356a27a35ed3ee3daa.svg",
-    "static/media/gamepad.svg": "/static/media/gamepad.a108857e6a2c6dccb22e46e047d99807.svg",
+    "static/media/gamepad.svg": "/static/media/gamepad.3bbb52b2fd9cfccd30d5aec4cec76d5e.svg",
+    "static/media/telegram.svg": "/static/media/telegram.d83340aed2aba6ba7c226ae8ee4bca63.svg",
     "static/media/youtube.svg": "/static/media/youtube.ef99af766fcaace47eecfaa920fbf99b.svg",
-    "static/media/arrow.svg": "/static/media/arrow.bd858ec7e59a6c6ae408a018ce5460b4.svg",
-    "main.61f1f3ac.css.map": "/static/css/main.61f1f3ac.css.map",
-    "main.cb2a9332.js.map": "/static/js/main.cb2a9332.js.map"
+    "static/media/discord.svg": "/static/media/discord.78e7bdfb55259fd6ad708ce2663a0c0b.svg",
+    "static/media/x.svg": "/static/media/x.5ad7666d04b3c92604fa05e88ffa1906.svg",
+    "main.2e25169f.css.map": "/static/css/main.2e25169f.css.map",
+    "main.61bc4710.js.map": "/static/js/main.61bc4710.js.map"
   },
   "entrypoints": [
-    "static/css/main.61f1f3ac.css",
-    "static/js/main.cb2a9332.js"
+    "static/css/main.2e25169f.css",
+    "static/js/main.61bc4710.js"
   ]
 }
