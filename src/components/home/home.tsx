@@ -35,31 +35,33 @@ function Home() {
                             <img 
                                 src={selectedGame.logo}
                                 alt={selectedGame.name}
-                                className="game__img w-100"
+                                className="game__img"
                             />
                             <div className="game__content">
-                                <p className="game__name"> { selectedGame.name } </p>
-                                <div className="game__about ">
-                                    <div className="game__date">
-                                        <img 
-                                            src={GamepadSvg} 
-                                            alt="gamepad" 
-                                            className="game__icon"
-                                        />
-                                        <p className="game__date-text"> { selectedGame.date } </p>
+                                <div>
+                                    <p className="game__name"> { selectedGame.name } </p>
+                                    <div className="game__about ">
+                                        <div className="game__date">
+                                            <img 
+                                                src={GamepadSvg} 
+                                                alt="gamepad" 
+                                                className="game__icon"
+                                            />
+                                            <p className="game__date-text"> { selectedGame.date } </p>
+                                        </div>
+                                        <div className="game__platforms">
+                                            <img 
+                                                src={GamepadSvg} 
+                                                alt="gamepad" 
+                                                className="game__icon"
+                                            />
+                                            <p className="game__platforms-text">
+                                                { selectedGame.platforms.join(', ') } </p>
+                                        </div>
                                     </div>
-                                    <div className="game__platforms">
-                                        <img 
-                                            src={GamepadSvg} 
-                                            alt="gamepad" 
-                                            className="game__icon"
-                                        />
-                                        <p className="game__platforms-text">
-                                            { selectedGame.platforms.join(', ') } </p>
-                                    </div>
+                                    <p className="game__description" dangerouslySetInnerHTML={{__html: selectedGame.description}} />
                                 </div>
-                                <p className="game__description" dangerouslySetInnerHTML={{__html: selectedGame.description}} />
-                                <a href="steam://openurl/https://store.steampowered.com/app/2372400/Mushroots/">
+                                <a className="link_btn" href="steam://openurl/https://store.steampowered.com/app/2372400/Mushroots/">
                                     <p className="get_btn fw-bold">
                                         GET IT NOW
                                     </p>

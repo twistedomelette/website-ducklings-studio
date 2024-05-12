@@ -71,6 +71,11 @@ section {
   color: $ds-orange;
 }
 
+.link_btn {
+  margin-bottom: 2rem;
+  align-self: flex-end;
+}
+
 .get_btn,
 .banner__btn {
   text-align: center;
@@ -112,8 +117,6 @@ section {
 }
 
 .game {
-  display: flex;
-  flex-direction: row;
   background: $ds-black;
   border-radius: 0.75rem;
   width: 75vw;
@@ -124,6 +127,8 @@ section {
   flex-direction: column;
   align-items: flex-start;
   padding: 3rem 3rem 0;
+
+  justify-content: space-between;
 }
 
 .game__name {
@@ -147,19 +152,18 @@ section {
   margin-bottom: 1rem;
 }
 
+.game__platforms {
+  margin-left: 3rem;
+}
+
 .game__description {
   font-family: 'Roboto', serif;
   font-style: normal;
   font-weight: 400;
   font-size: $font-size-3;
   line-height: 1.44rem;
-  margin-bottom: 6rem;
 
   color: $ds-white-700;
-}
-
-.game__icon {
-  width: 3rem;
 }
 
 .game__date-text,
@@ -175,12 +179,88 @@ section {
   color: $ds-white-700;
 }
 
+@media screen and (min-width: 1200px) {
+  .game {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .game__img {
+    max-width: 25rem;
+    border-radius: 0.75rem 0 0 0.75rem;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .game {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .game__img {
+    height: 20vh;
+    object-fit: cover;
+    border-radius: 0.75rem 0.75rem 0 0;
+  }
+
+  .game__description {
+    font-size: $font-size-4;
+  }
+
+  .game__date-text,
+  .game__platforms-text {
+    font-size: $font-size-4;
+  }
+
+  .get_btn {
+    width: 10rem;
+    font-size: $font-size-3;
+    margin-top: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .game__about {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0.375rem;
+  }
+
+  .game__platforms {
+    margin-left: 0rem;
+  }
+
+  .game__description {
+    font-size: $font-size-5;
+  }
+
+  .game__date-text,
+  .game__platforms-text {
+    font-size: $font-size-5;
+  }
+
+  .get_btn {
+    font-size: $font-size-5;
+    width: 7rem;
+    padding: 0.375rem 0;
+    border-radius: 0.4rem;
+  }
+}
+
 .game__platforms {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: 3rem;
 }
+
+
+
+
+
+.game__icon {
+  width: 3rem;
+}
+
 
 .game__date {
   display: flex;
@@ -201,7 +281,4 @@ section {
   color: $ds-white;
 }
 
-.game__img {
-  max-width: 25rem;
-  border-radius: 0.75rem 0 0 0.75rem;
-}
+
