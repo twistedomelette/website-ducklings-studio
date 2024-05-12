@@ -6,15 +6,22 @@
 
 .info__about-us,
 .info__explore-text,
-.info__contact {
+.info__contact-us {
   font-family: 'Roboto', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1.25rem;
   line-height: 1.758rem;
-  margin-bottom: 0.375rem;
 
   color: $ds-white;
+}
+
+.info__contact {
+  margin-left: 1rem;
+}
+
+.info__contact-block {
+  margin-top: 1rem;
 }
 
 .info__our-email {
@@ -45,7 +52,6 @@
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.465rem;
-  margin-bottom: 0.75rem;
 
   color: $ds-white-700;
 }
@@ -70,16 +76,15 @@
 }
 
 .info {
-  padding: 1.5rem 3rem;
+  padding: 0.75rem 3rem 0.5rem 3rem;
   display: flex;
   flex-direction: row;
-  align-content: space-between;
-  justify-content: space-between;
 }
 
 .info__ducklings {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   width: 40rem;
 }
 
@@ -111,7 +116,7 @@
   background: $ds-black;
 
   &:not(:first-child) {
-    margin-left: 3rem;
+    margin-left: 1.5rem;
   }
 }
 
@@ -129,11 +134,12 @@
   background: none;
 }
 
-.info__social-network,
-.info__social-network a {
+.info__social-network {
   display: flex;
   flex-direction: row;
   height: 2rem;
+
+  margin-top: 0.375rem;
 }
 
 .info__social-network a img {

@@ -29,6 +29,10 @@ html {
 section {
   height: 100vh;
   scroll-snap-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .background-video{
@@ -90,8 +94,11 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: $ds-black-500;
   padding-bottom: 3rem;
+}
+
+.games-section {
+  background-color: $ds-black-500;
 }
 
 .games__title {

@@ -27,7 +27,7 @@ function Home() {
                     </div>
                 </section>
 
-                <section>
+                <section className="games-section">
 
                     <div className="games">
                         <p className="games__title text-center font-weight-bold">OUR GAMES</p>
