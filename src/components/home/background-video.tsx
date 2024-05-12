@@ -16,9 +16,7 @@ function BackgroundVideo(props: Props) {
                poster={props.poster}
                onSeeked={() => props.onVideoEnd()}
         >
-            <source src={props.video} type="video/webm" />
             <source src={props.video} type="video/mp4" />
-            <source src={props.video} type="video/ogg" />
             Your browser does not support the video tag.
         </video>
     )

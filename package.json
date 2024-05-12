@@ -1,7 +1,7 @@
 {
   "homepage": "https://Ducklings-Studio.github.io/",
   "name": "website-ducklings-studio",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
