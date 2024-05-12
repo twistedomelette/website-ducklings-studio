@@ -7,20 +7,20 @@ import { ISocialNetwork } from "./common/interfaces";
 
 function Footer() {
     return (
-        <footer className="footer d-flex">
-            <div className="info d-flex">
-                <div className="info__ducklings d-flex flex-column">
+        <footer className="footer">
+            <div className="info">
+
+                <div className="info__ducklings">
                     <p className="info__about-us">ABOUT US</p>
                     <p className="info__about-us-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non placerat turpis. Cras tincidunt auctor dolor ut accumsan. Quisque convallis ac orci ac luctus. Fusce bibendum leo ut tellus imperdiet finibus.</p>
                     <p className="info__inc justify-self-center mt-auto">
                         © {(new Date().getFullYear())} Ducklings Studio. All rights reserved.
                     </p>
                 </div>
-                <div className="info__contacts d-flex flex-column">
-                    <p className="info__contact">CONTACT</p>
-                    <p className="info__our-email">the.ducklings.studio@gmail.com</p>
+
+                <div className="info__about-block">
                     <p className="info__about-us">FOLLOW US</p>
-                    <div className="info__social-network d-flex align-items-center">
+                    <div className="info__social-network">
                         {socialNetworks.map((socialNetwork: ISocialNetwork) => {
                             return (
                                 <a
@@ -37,6 +37,10 @@ function Footer() {
                             )
                         })}
                     </div>
+                </div>
+                <div className="info__contact-block">
+                    <p className="info__contact">CONTACT</p>
+                    <p className="info__our-email"><a href="https://mail.google.com/mail/u/0/?view=cm&to=the.ducklings.studio@gmail.com&body=Dear%20Ducklings%20Studio%2C%0A%0A">the.ducklings.studio@gmail.com</a></p>
                 </div>
             </div>
         </footer>
