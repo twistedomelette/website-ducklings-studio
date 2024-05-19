@@ -83,7 +83,7 @@ function Home() {
                                     className="link_btn get_btn fw-bold"
                                     onClick={() => openSteamLinks('https://store.steampowered.com/app/2372400/Mushroots/')}
                                 >
-                                    GET IT NOW
+                                    GET IT
                                 </button>
                             </div>
                         </div>

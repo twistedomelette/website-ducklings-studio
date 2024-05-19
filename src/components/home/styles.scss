@@ -197,6 +197,7 @@ section {
   .game {
     display: flex;
     flex-direction: row;
+    margin-bottom: 2rem;
   }
 
   .game__img {
@@ -265,6 +266,10 @@ section {
 @media screen and (max-width: 600px),
        screen and (max-height: 540px) {
 
+  .games__title {
+    margin: 1.5rem 0 1rem 0;
+  }
+  
   .game__description {
     display: none;
   }
@@ -311,7 +316,8 @@ section {
   .get_btn {
     font-size: $font-size-5;
     width: 7rem;
-    padding: 0.375rem 0;
+    padding: 0.75rem 0.75rem;
     border-radius: 0.4rem;
+    margin: 0.75rem 0;
   }
 }
