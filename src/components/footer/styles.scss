@@ -5,6 +5,8 @@
   padding: 2rem 0;
 }
 
+
+
 .info__about-us,
 .info__explore-text,
 .info__contact-us {
@@ -86,7 +88,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 40rem;
 }
 
 .info__input-email,
@@ -147,3 +148,25 @@
   height: 2rem;
 }
 
+@media screen and (max-width: 1199px),
+       screen and (max-height: 700px) {
+  .footer {
+    background: $ds-black;
+    padding: 0rem;
+  }
+
+  .info{
+    padding: 0rem 1rem;
+    justify-content: center;
+  }
+
+  .info__about-us{
+    text-align: center;
+  }
+  .info__contact-us{
+    text-align: center;
+  }
+  .info__social-network {
+    justify-content: center;
+  }
+}
