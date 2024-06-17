@@ -3,9 +3,8 @@
 .footer {
   background: $ds-black;
   padding: 2rem 0;
-  height: 100vh;
+  scroll-snap-align: start;
 }
-
 
 
 .info__about-us,
@@ -88,7 +87,7 @@
 .info__ducklings {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  gap: 50px;
 }
 
 .info__input-email,
@@ -161,13 +160,13 @@
     justify-content: center;
   }
 
-  .info__about-us{
+  .info__about-us,
+  .info__about-us-description,
+  .info__explore-link,
+  .info__inc,
+  .info__contact-us,
+  .info__social-network,
+  .info__our-email{
     text-align: center;
-  }
-  .info__contact-us{
-    text-align: center;
-  }
-  .info__social-network {
-    justify-content: center;
   }
 }

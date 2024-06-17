@@ -55,7 +55,6 @@ function PhoneFooter() {
     return (
         <footer className="footer">
             <div className="info">
-
                 <div className="info__ducklings">
                     <div>
                         <p className="info__about-us">ABOUT US</p>
